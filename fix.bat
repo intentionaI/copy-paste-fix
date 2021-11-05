@@ -7,9 +7,9 @@ echo 1 - fix
 echo 2 - exit
 
 :menu
-set /p wybieram:=wybieram: 
-if %wybieram:%==1 goto fix
-if %wybieram:%==2 goto exit
+set /p HACKERFIX:=HACKERFIX: 
+if %HACKERFIX:%==1 goto fix
+if %HACKERFIX:%==2 goto exit
 
 :fix
 cls
